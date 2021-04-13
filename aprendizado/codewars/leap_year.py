@@ -16,4 +16,6 @@ def is_leap(year):
     return leap
 
 
-# Se o ano for divisível por 4 será feita outra verificação (se o mesmo termina em '00'), caso termine em um duplo zero será verificado se o resto da divisão por 400 é exata, retornando True caso a verificação seja verdadeira, caso contrário retorna False. Se o ano não terminar em '00' a variavel leap recebe True, pois o ano é divisível por 4.
+# Se o ano for divisível por 4 será feita outra verificação (se o mesmo termina em '00'), caso termine em um duplo zero será verificado se o resto da
+# divisão por 400 é exata, retornando True caso a verificação seja verdadeira, caso contrário retorna False. Se o ano não terminar em '00' a variavel 
+# leap recebe True, pois o ano é divisível por 4.

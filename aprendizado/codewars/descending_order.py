@@ -16,3 +16,4 @@ def descending_order(num):
 # Refatoração do primeiro código (utilizando list comprehension)
 def descending_order_two(num):
     return int(''.join([x for x in sorted(str(num), reverse=True)]))
+

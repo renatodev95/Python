@@ -2,6 +2,7 @@
 
 # Função que recebe um número inteiro (não negativo) como argumento e o retorna com os dígitos em ordem descendente. Essencialmente, organize os dígitos para criar o maior número possível.
 
+# Primeiro código
 def descending_order(num):
     new_num = str(num)
     new_num1 = [int(x) for x in new_num]
@@ -12,6 +13,6 @@ def descending_order(num):
     return int(string)
 
 
-print(descending_order(145263))
-
-
+# Refatoração do primeiro código (utilizando list comprehension)
+def descending_order_two(num):
+    return int(''.join([x for x in sorted(str(num), reverse=True)]))

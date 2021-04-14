@@ -10,7 +10,7 @@ def find_next_square(sq):   # 1
 
 
 # 1: A função recebe uma potência (valor positivo);
-# 2: A variável raiz recebe a raiz quadrada do valor passado como parâmetro;
+# 2: A variável raiz recebe a raiz quadrada do valor passado como parâmetro (para obter a raiz basta elevar o valor à 0.5);
 # 3: A função retorna o valor inteiro da elevação ao quadrado da 'raiz+1' que
 # equivale a potência do número posterior a raiz da potência repassada, se a raiz for um número inteiro (sem ponto flutuante), caso contrário, retorna -1.
 

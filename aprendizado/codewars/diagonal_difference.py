@@ -18,4 +18,3 @@ def diagonalDifference(arr):
     d2 = sum(d2)
     res = abs(d1 - d2)
     return res
-

@@ -1,2 +1,2 @@
 # Python
-Minha Trajetória em Python
+Exercícios em Python.
